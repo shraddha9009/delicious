@@ -34,8 +34,8 @@ $("document").ready(function () {
 						<li class="list-group-item"><b>NAME</b>: `+data[s].short_name+`</li>
 						<li class="list-group-item"><b>SHORT NAME</b>: `+data[s].name+`</li>
 						<li class="list-group-item"><b>DESCRIPTION</b>: `+data[s].description+`</li>
-						<li class="list-group-item"><b>MAX PRICE SMALL</b>: `+data[s].price_small+`</li>
-						<li class="list-group-item"><b>MIN PRICE LARGE</b>: `+data[s].price_large+`</li>
+						<li class="list-group-item"><b>PRICE SMALL</b>: `+data[s].price_small+`</li>
+						<li class="list-group-item"><b>PRICE LARGE</b>: `+data[s].price_large+`</li>
 						<li class="list-group-item"><b>MIN PORTION NAME</b>: `+data[s].small_portion_name+`</li>
 						<li class="list-group-item"><b>MAX PORTION NAME</b>:`+data[s].large_portion_name+` </li>
 					</ul>
