@@ -30,12 +30,12 @@ $("document").ready(function () {
 				</div>
 				<div class="col-md-8">
 					<ul class="list-group">
-						<li class="list-group-item"><b>REGISTRATION NUMBER</b>: `+data[s].id+`</li>
-						<li class="list-group-item"><b>ID</b>: `+data[s].short_name+`</li>
-						<li class="list-group-item"><b>NAME OF THE ITEM</b>: `+data[s].name+`</li>
-						<li class="list-group-item"><b>DETAILS</b>: `+data[s].description+`</li>
-						<li class="list-group-item"><b>MAX PRICE</b>: `+data[s].price_small+`</li>
-						<li class="list-group-item"><b>MIN PRICE</b>: `+data[s].price_large+`</li>
+						<li class="list-group-item"><b>ID</b>: `+data[s].id+`</li>
+						<li class="list-group-item"><b>NAME</b>: `+data[s].short_name+`</li>
+						<li class="list-group-item"><b>SHORT NAME</b>: `+data[s].name+`</li>
+						<li class="list-group-item"><b>DESCRIPTION</b>: `+data[s].description+`</li>
+						<li class="list-group-item"><b>MAX PRICE SMALL</b>: `+data[s].price_small+`</li>
+						<li class="list-group-item"><b>MIN PRICE LARGE</b>: `+data[s].price_large+`</li>
 						<li class="list-group-item"><b>MIN PORTION NAME</b>: `+data[s].small_portion_name+`</li>
 						<li class="list-group-item"><b>MAX PORTION NAME</b>:`+data[s].large_portion_name+` </li>
 					</ul>
